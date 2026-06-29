@@ -34,3 +34,6 @@ management:
     health:
       probes:
         enabled: true
+jwt:
+  secret: "#MySecretKeyForJWTTokenGenerationMustBeLongEnough$"
+  expiration-seconds: 86400
